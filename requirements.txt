@@ -1,0 +1,11 @@
+streamlit
+torch
+numpy
+matplotlib
+nibabel
+segmentation-models-pytorch
+albumentations
+scikit-image
+opencv-python-headless
+dicom2nifti
+pydicom

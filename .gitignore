@@ -1,0 +1,12 @@
+__pycache__/
+*.nii
+*.nii.gz
+*.zip
+*.dcm
+venv/
+kaggle.json
+.env
+
+!demo_data/
+!demo_data/*.nii.gz
+!demo_data/*.nii
