@@ -87,7 +87,8 @@
 
 ## 5. データセットと戦略 (Dataset & Strategy)
 ### Datasets
-* **Training:** [RSNA Intracranial Aneurysm Detection](https://kaggle.com/competitions/rsna-intracranial-aneurysm-detection) (Kaggle) より抽出した**48症例**。
+* **Training:** [RSNA Intracranial Aneurysm Detection](https://kaggle.com/competitions/rsna-intracranial-aneurysm-detection) (Kaggle) より抽出した **48症例**。
+    * **⚠️Data Availability:** ライセンスの制約上、**本リポジトリにモデル構築・評価に用いた元データセット（DICOM/NIfTI）は一切含まれていません。** モデルの再学習や検証を行う場合は、Kaggleの公式サイトよりご自身でデータをダウンロードしてください。
 * **Demo Data:** [IXI Dataset](https://brain-development.org/ixi-dataset/) (CC BY-SA 3.0)
 
 > **Note: Domain Shift**
@@ -166,6 +167,7 @@
 ## License
 * **Source Code:** [MIT License](LICENSE)
 * **Model Weights:** Non-Commercial / Research Use Only
+    * 学習済みモデルの重みは [RSNA Intracranial Aneurysm Detection](https://kaggle.com/competitions/rsna-intracranial-aneurysm-detection) データセットを使用して学習されているため、**非商用・研究目的 (Non-Commercial / Research Use Only)** での利用に限定されます。
 * **Demo Data:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 
 ## Acknowledgements & Citation
